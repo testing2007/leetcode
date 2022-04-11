@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Main3",
+      "request": "launch",
+      "mainClass": "hashtable.Main3",
+      "projectName": "leetcode_726f47f5"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"

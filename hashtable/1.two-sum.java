@@ -9,7 +9,7 @@ import java.util.Map;
  */
 
 // @lc code=start
-class Solution {
+class Solution1 {
   public int[] twoSum(int[] nums, int target) {
     Map<Integer, Integer> map = new HashMap<>();
     for (int j = 0; j < nums.length; j++) {
@@ -29,7 +29,7 @@ class Solution {
 
 class Main {
   public static void main(String[] args) {
-    Solution so = new Solution();
+    Solution1 so = new Solution1();
     int[] nums = { -1, -2, -3, -4 };
     int[] ret = so.twoSum(nums, -6);
     if (ret!=null && ret.length == 2) {
