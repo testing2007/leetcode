@@ -6,15 +6,13 @@ package hashtable;
  */
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 // @lc code=start
-class Solution {
+class Solution3 {
     public int lengthOfLongestSubstring(String s) {
       // "bbbb"
       // "abcda" => abcd bcda
@@ -68,8 +66,8 @@ class Solution {
       return maxLength;
     }
 
-    private void values() {
-    }
+    // private void values() {
+    // }
 }
 
 // class Main3 {
