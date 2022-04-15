@@ -11,7 +11,7 @@ package tree;
 //  Definition for a binary tree node.
 
  //*/
-class Solution {
+class Solution100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p==null && q == null) {
           return true;
