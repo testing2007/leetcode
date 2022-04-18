@@ -10,8 +10,12 @@ import java.util.List;
 import java.util.Stack;
 import java.lang.Character;
 
+/**
+ * 算法思路：
+ * 通过栈的方式遍历字符串，所有匹配的为0， 否则为1， 最后寻找连续为0的子串长度
+ */
 // @lc code=start
-class Solution {
+class Solution32 {
   public int longestValidParentheses(String s) {
     Integer inputLength = s.length();
     if (s == null || inputLength <= 0) {
@@ -34,11 +38,7 @@ class Solution {
         } else {
           stack.pop();
         }
-        // if(stack.lastElement()=='(') {
-        // //栈顶元素为 (, 出栈
-        // } else {
-        // //入栈
-        // }
+        //
       } else {
         stack.push(i);
       }
