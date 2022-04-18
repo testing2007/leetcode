@@ -21,10 +21,6 @@ class Solution32 {
     if (s == null || inputLength <= 0) {
       return 0;
     }
-    // ((()))
-    // (()())
-    // (()(())
-
     List<Integer> list = new ArrayList<Integer>();
     for (int i = 0; i < inputLength; i++) {
       list.add(i, 0);
@@ -33,8 +29,8 @@ class Solution32 {
     for (int i = 0; i < inputLength; i++) {
       Character c = s.charAt(i);
       if (c == ')') {
-        if (stack.empty()) {
-          stack.push(i);
+        if (stack.isEmpty()) {
+          list.set(i, 1);
         } else {
           stack.pop();
         }
@@ -68,7 +64,7 @@ class Solution32 {
 // class Main {
 // public static void main(String[] args) {
 // Solution32 so = new Solution32();
-// int n = so.longestValidParentheses(")(()(()))");
+// int n = so.longestValidParentheses(")"); // )()())(
 // System.out.println("result n=" + n);
 // }
 // }
