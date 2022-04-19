@@ -6,7 +6,7 @@ package dp;
  */
 
 // @lc code=start
-class Solution {
+class Solution509 {
   public int fib(int n) {
     if (n == 0) {
       return 0;
