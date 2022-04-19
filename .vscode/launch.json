@@ -8,7 +8,7 @@
       "type": "java",
       "name": "Launch Main",
       "request": "launch",
-      "mainClass": "dp.Main",
+      "mainClass": "dp.Main509", //日志发现 mainClass 冲突，修改即可，同时 class Main509
       "projectName": "leetcode_726f47f5"
     }
   ]
